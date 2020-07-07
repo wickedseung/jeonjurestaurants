@@ -3,32 +3,75 @@
 <head>
   <title>Jeonju Restaurants(전주맛집)</title>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR:wght@500&family=Yeon+Sung&display=swap" rel="stylesheet">
+  <style>
+  a {
+    color:darkblue;
+    text-decoration: none;
+    font-family: 'Gaegu', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Yeon Sung', cursive;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom: 2px lightblue solid;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  ol {
+    font-size: 20px;
+    border-right:2px lightblue solid;
+    width:230px;
+    padding:20px;
+    margin:0;
+  }
+ #grid {
+   display:grid;
+   grid-template-columns: 302px 1fr;
+ }
+#grid ol{
+ padding-left:50px;
+ padding-top:30px;
+}
+#grid #article{
+  padding-left:20px;
+  font-family: 'Gaegu', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Yeon Sung', cursive;
+font-size: 20px;
+}
+
+  </style>
 </head>
 
 <body>
- <h1><a href="index.html">Jeonju Restaurants(전주맛집)</a></h1>
-  <ol>
-    <li><a href="1.html">Grill(구이)</a></li>
-    <li><a href="2.html">Seafood(회/해산물)</a></li>
-    <li><a href="3.html">Meal(면/식사)</a></li>
-    <li><a href="4.html">Snacks/desserts(간식/디저트)</a></li>
-  </ol>
- <h2>Grill(구이)</h2>
-
-  <ul>
-    <li>고모네집</li>
-    <p>
-    돼지고기와 소고기 가릴 것 없이 구워먹을 수 있는 가성비 좋은 식당. 특히 돼지고기가 맛있다.
-    </p>
-    <li>한일옥</li>
-    <p>
-    정육 식당으로 소고기가 먹고 싶을 때 찾는 집. 옆의 정육점에서 고기를 사서 상차림비를 받고 식당에서 구워먹을 수 있다.
-   </p>
-    <li>풍천장어</li>
-    <p>
-    전주에 얼마 없는 장어 구이 집. 장어와 겻들여 먹을 수 있는 다양한 밑반찬이 있어서 만족스럽다.
-   </p>
-  </ul>
+ <h1><a href="index.html">Jeonju Restaurants(전주 맛집)</a></h1>
+  <div id="grid">
+      <ol>
+        <li><a href="1.html" style="text-decoration:underline">Grill(구이)</a></li><br>
+        <li><a href="2.html">Seafood(회/해산물)</a></li><br>
+        <li><a href="3.html">Meal(면/식사)</a></li><br>
+        <li><a href="4.html">Snacks/desserts(간식/디저트)</a></li>
+      </ol>
+    <div id="article">
+   <h2>Grill(구이)</h2>
+    <ul>
+      <li>고모네집</li>
+      <p>
+      돼지고기와 소고기 가릴 것 없이 구워먹을 수 있는 가성비 좋은 식당. 특히 돼지고기가 맛있다.
+      </p>
+      <li>한일옥</li>
+      <p>
+      정육 식당으로 소고기가 먹고 싶을 때 찾는 집. 옆의 정육점에서 고기를 사서 상차림비를 받고 식당에서 구워먹을 수 있다.
+     </p>
+      <li>풍천장어</li>
+      <p>
+      전주에 얼마 없는 장어 구이 집. 장어와 겻들여 먹을 수 있는 다양한 밑반찬이 있어서 만족스럽다.
+     </p>
+    </ul>
+    </div>
+  </div>
 
 </body>
 </html>

@@ -3,16 +3,58 @@
 <head>
   <title>Jeonju Restaurants(전주맛집)</title>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR:wght@500&family=Yeon+Sung&display=swap" rel="stylesheet">
+  <style>
+  a {
+    color:darkblue;
+    text-decoration: none;
+    font-family: 'Gaegu', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Yeon Sung', cursive;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom: 2px lightblue solid;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  ol {
+    font-size: 20px;
+    border-right:2px lightblue solid;
+    width:230px;
+    padding:20px;
+    margin:0;
+  }
+ #grid {
+   display:grid;
+   grid-template-columns: 302px 1fr;
+ }
+#grid ol{
+ padding-left:50px;
+ padding-top:30px;
+}
+#grid #article{
+  padding-left:20px;
+  font-family: 'Gaegu', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Yeon Sung', cursive;
+font-size: 20px;
+}
+
+  </style>
 </head>
 
 <body>
- <h1><a href="index.html">Jeonju Restaurants(전주맛집)</a>)</h1>
-  <ol>
-    <li><a href="1.html">Grill(구이)</a></li>
-    <li><a href="2.html">Seafood(회/해산물)</a></li>
-    <li><a href="3.html">Meal(면/식사)</a></li>
-    <li><a href="4.html">Snacks/desserts(간식/디저트)</a></li>
-  </ol>
+ <h1><a href="index.html">Jeonju Restaurants(전주 맛집)</a></h1>
+  <div id="grid">
+      <ol>
+        <li><a href="1.html">Grill(구이)</a></li><br>
+        <li><a href="2.html">Seafood(회/해산물)</a></li><br>
+        <li><a href="3.html" style="text-decoration:underline">Meal(면/식사)</a></li><br>
+        <li><a href="4.html">Snacks/desserts(간식/디저트)</a></li>
+      </ol>
+    <div id="article">
  <h2>Meal(면/식사류)</h2>
   <ul>
     <li>깐쇼새우</li>
@@ -32,5 +74,7 @@
     날이 시원해지면 영업을 멈추므로 가을쯤에는 전화를 걸어 확인하는 것이 좋겠다.
     </p>
   </ul>
+</div>
+</div>
 </body>
 </html>
