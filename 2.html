@@ -1,52 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Jeonju Restaurants(전주맛집)</title>
-  <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR:wght@500&family=Yeon+Sung&display=swap" rel="stylesheet">
-  <style>
-  a {
-    color:darkblue;
-    text-decoration: none;
+  <head>
+    <title>Jeonju Restaurants(전주맛집)</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu&family=Noto+Serif+KR:wght@500&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <style>
+    a {
+      color:darkblue;
+      text-decoration: none;
+      font-family: 'Gaegu', cursive;
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Yeon Sung', cursive;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom: 2px lightblue solid;
+      padding-bottom: 20px;
+      margin-bottom: 0;
+    }
+    ol {
+      font-size: 20px;
+      border-right:2px lightblue solid;
+      width:230px;
+      padding:10px;
+      margin:0;
+    }
+   #grid {
+     display:grid;
+     grid-template-columns:280px 1fr;
+   }
+  #grid ol{
+   padding-left:40px;
+   padding-top:30px;
+  }
+  #grid #article{
+    padding-left:25px;
     font-family: 'Gaegu', cursive;
-font-family: 'Noto Serif KR', serif;
-font-family: 'Yeon Sung', cursive;
+  font-family: 'Noto Serif KR', serif;
+  font-family: 'Yeon Sung', cursive;
+  font-size: 20px;
   }
-  h1 {
-    font-size:45px;
-    text-align: center;
-    border-bottom: 2px lightblue solid;
-    padding-bottom: 20px;
-    margin-bottom: 0;
+  @media(max-width:800px){
+    #grid {
+      display:block;
+    }
+    ol {
+      border-right:none;
+      padding-bottom:20px;
+      border-bottom: 2px lightblue solid;
+    }
   }
-  ol {
-    font-size: 20px;
-    border-right:2px lightblue solid;
-    width:230px;
-    padding:20px;
-    margin:0;
-  }
- #grid {
-   display:grid;
-   grid-template-columns: 302px 1fr;
- }
-#grid ol{
- padding-left:50px;
- padding-top:30px;
-}
-#grid #article{
-  padding-left:20px;
-  font-family: 'Gaegu', cursive;
-font-family: 'Noto Serif KR', serif;
-font-family: 'Yeon Sung', cursive;
-font-size: 20px;
-}
-
   </style>
 </head>
 
 <body>
- <h1><a href="index.html">Jeonju Restaurants(전주 맛집)</a></h1>
+  <h1><a href="index.html">Jeonju Restaurants(전주 맛집)</a></h1>
   <div id="grid">
       <ol>
         <li><a href="1.html" >Grill(구이)</a></li><br>
@@ -55,25 +64,24 @@ font-size: 20px;
         <li><a href="4.html">Snacks/desserts(간식/디저트)</a></li>
       </ol>
     <div id="article">
- <h2>Seafood(회/해산물)</h2>
- <ul>
-   <li>초밥장이</li><br>
-   <img src="chobap1.jpg" width="45%">
-   <img src="chobap2.jpg" width="45%">
-   <p>
-   초밥과 회를 합리적인 가격에 만나볼 수 있다. 신선한 회를 숙성시켜 사용해서 부드러운 식감이 특징. 차례로 나오는 음식을 조금씩 먹다보면 어느새 배가 든든해진다. 타지에서 찾아온 손님을 대접하기에 좋은 식당이다.
- </p>
-   <li>섬마을</li>
-   <p>
-  깔끔하고 정갈한 횟집이다.신선한 회뿐만 아니라 해산물로 만든 다양한 밑반찬을 즐길 수 있다. 홀뿐만 아니라 독립된 방도 있어 손님을 데려가기에도 좋다.
+  <h2>Seafood(회/해산물)</h2>
+  <ul>
+     <li>초밥장이</li><br>
+     <img src="chobap1.jpg" width="49%">
+     <img src="chobap2.jpg" width="49%">
+     <p>
+     초밥과 회를 합리적인 가격에 만나볼 수 있다. 신선한 회를 숙성시켜 사용해서 부드러운 식감이 특징. 차례로 나오는 음식을 조금씩 먹다보면 어느새 배가 든든해진다. 타지에서 찾아온 손님을 대접하기에 좋은 식당이다.
    </p>
-  <li>해삼집</li>
-   <p>
-  회와 밑반찬이 푸짐하게 나온다. 신선한 횟감을 사용하기에 쫄깃한 식감을 즐길 수 있다. 식당이 좌식으로 되어있어 친근한 느낌이 있지만 조금 불편할 수 있다.
-  </p>
- </ul>
-</div>
-</div>
-
+     <li>섬마을</li>
+     <p>
+    깔끔하고 정갈한 횟집이다.신선한 회뿐만 아니라 해산물로 만든 다양한 밑반찬을 즐길 수 있다. 홀뿐만 아니라 독립된 방도 있어 손님을 데려가기에도 좋다.
+     </p>
+    <li>해삼집</li>
+     <p>
+    회와 밑반찬이 푸짐하게 나오는 가성비 좋은 횟집. 신선한 횟감을 사용하기에 쫄깃한 식감을 즐길 수 있다. 식당이 좌식으로 되어있어 친근한 느낌이 있지만 조금 불편할 수 있다.
+    </p>
+  </ul>
+  </div>
+  </div>
 </body>
 </html>
